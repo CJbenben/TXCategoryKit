@@ -24,7 +24,7 @@
 
 + (UIColor *)colorWithHexString:(NSString *)stringToConvert
 {
-    if ([stringToConvert containsString:@"#"] && stringToConvert.length == 7) {
+    if (stringToConvert.length == 7 && [stringToConvert containsString:@"#"]) {
         stringToConvert = [stringToConvert substringFromIndex:1];
     }
     NSScanner *scanner = [NSScanner scannerWithString:stringToConvert];
