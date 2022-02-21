@@ -51,7 +51,8 @@
  @param text 金额
  @return 格式化后的金额
  */
-
+// 获取这个字符串ASting中的所有abc的所在的index
++ (NSMutableArray *)getRangeStr:(NSString *)text findText:(NSString *)findText;
 /**
  金额千分位分割
 
