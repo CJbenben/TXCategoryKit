@@ -14,3 +14,4 @@
 #import "UIView+TXCorner.h"
 #import "NSString+TXMD5.h"
 #import "UIColor+TXColor.h"
+#import "UIView+TXOtherView.h"
