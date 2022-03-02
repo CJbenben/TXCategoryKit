@@ -1,5 +1,5 @@
 //
-//  UIColor+CJColor.h
+//  UIColor+TXColor.h
 //  Autoyol
 //
 //  Created by chenxiaojie on 15/5/13.
@@ -8,10 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIColor (CJColor)
+@interface UIColor (TXColor)
 
++ (UIColor *)colorWithRGBHex:(UInt32)hex alpha:(CGFloat)alpha;
++ (UIColor *)colorWithHexString:(NSString *)hexColorStr;
 + (UIColor *)colorWithRGBHex:(UInt32)hex;
-+ (UIColor *)colorWithHexString:(NSString *)stringToConvert;
-+ (UIColor *)colorWithHex:(UInt32)hex alpha:(CGFloat)alpha;
 
 @end

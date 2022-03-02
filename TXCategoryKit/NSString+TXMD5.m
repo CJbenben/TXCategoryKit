@@ -1,15 +1,15 @@
 //
-//  NSString+CJMD5.m
+//  NSString+TXMD5.m
 //  ShopMobile
 //
 //  Created by chenxiaojie on 2019/3/18.
 //  Copyright © 2019年 soubao. All rights reserved.
 //
 
-#import "NSString+CJMD5.h"
+#import "NSString+TXMD5.h"
 #import "CommonCrypto/CommonDigest.h"
 
-@implementation NSString (CJMD5)
+@implementation NSString (TXMD5)
 
 + (NSString *)md5:(NSString *)inputStr {
     const char *cStr = [inputStr UTF8String];

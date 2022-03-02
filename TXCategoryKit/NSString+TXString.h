@@ -1,5 +1,5 @@
 //
-//  NSString+AtzucheNSString.h
+//  NSString+TXString.h
 //  Autoyol
 //
 //  Created by Ning Gang on 14/11/17.
@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-@interface NSString (AtzucheNSString)
+@interface NSString (TXString)
 
 /**
  @brief 字符串转字典

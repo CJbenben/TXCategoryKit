@@ -1,14 +1,14 @@
 //
-//  NSString+AtzucheNSString.m
+//  NSString+TXString.m
 //  Autoyol
 //
 //  Created by Ning Gang on 14/11/17.
 //  Copyright (c) 2014年 Atzuche. All rights reserved.
 //
 
-#import "NSString+AtzucheNSString.h"
+#import "NSString+TXString.h"
 
-@implementation NSString (AtzucheNSString)
+@implementation NSString (TXString)
 
 + (NSDictionary *)dictionaryWithJSONString:(NSString *)jsonString{
     if (jsonString == nil) {
@@ -234,7 +234,7 @@
 }
 
 //求有行间距的label高度
-+ (CGSize)boundingRectWithSize:(CGSize)size WithStr:(NSString*)string andFont:(UIFont *)font andLinespace:(CGFloat)space
+- (CGSize)boundingRectWithSize:(CGSize)size WithStr:(NSString*)string andFont:(UIFont *)font andLinespace:(CGFloat)space
 {
     
     NSMutableParagraphStyle *style = [[NSMutableParagraphStyle alloc]init];

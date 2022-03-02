@@ -1,5 +1,5 @@
 //
-//  UIView+AtzucheUIView.h
+//  UIView+TXFrame.h
 //  Autoyol
 //
 //  Created by chenxioajie on 14/11/14.
@@ -8,12 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-/*本地化转换*/
-#undef L
-#define L(key) \
-[[NSBundle mainBundle] localizedStringForKey:(key) value:@"" table:nil]
-
-@interface UIView (AtzucheUIView) <CAAnimationDelegate>
+@interface UIView (TXFrame)
 
 @property (nonatomic, assign) CGFloat x;
 @property (nonatomic, assign) CGFloat y;
@@ -36,18 +31,5 @@
 
 @property(nonatomic) CGPoint origin;
 @property(nonatomic) CGSize size;
-
-- (void)settingLayerView:(UIView *)originalView color:(UIColor *)color radius:(CGFloat)radius;
-
-- (void)removeAllSubviews;
-- (UIViewController *)viewController;
-
-//like airbnb
-- (void)setAnchorPoint:(CGPoint)point;
--(UIViewController *)getSuperViewController;
-//一级界面推到下级界面动画
--(CATransition *)getPushTransition;
-//从上到下覆盖界面
--(CATransition *)getPopTransition;
 
 @end

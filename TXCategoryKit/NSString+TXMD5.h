@@ -1,5 +1,5 @@
 //
-//  NSString+CJMD5.h
+//  NSString+TXMD5.h
 //  ShopMobile
 //
 //  Created by chenxiaojie on 2019/3/18.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface NSString (CJMD5)
+@interface NSString (TXMD5)
 
 + (NSString *)md5:(NSString *)inputStr;
 

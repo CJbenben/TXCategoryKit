@@ -8,8 +8,9 @@
 
 #pragma mark - Category
 
-#import "NSString+AtzucheNSString.h"
+#import "NSString+TXString.h"
 #import "UIImage+loadSPBundle.h"
-#import "UIView+AtzucheUIView.h"
-#import "NSString+CJMD5.h"
-#import "UIColor+CJColor.h"
+#import "UIView+TXFrame.h"
+#import "UIView+TXCorner.h"
+#import "NSString+TXMD5.h"
+#import "UIColor+TXColor.h"
