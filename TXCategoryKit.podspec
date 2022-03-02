@@ -15,9 +15,9 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "CJCategoryKit"
-  spec.version      = "0.1.1"
-  spec.summary      = "This is componentization with CJCategoryKit"
+  spec.name         = "TXCategoryKit"
+  spec.version      = "0.2.0"
+  spec.summary      = "This is componentization with TXCategoryKit"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
     pod CJCategorykit private library
                    DESC
 
-  spec.homepage     = "https://github.com/CJbenben/CJCategoryKit"
+  spec.homepage     = "https://github.com/CJbenben/TXCategoryKit"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -80,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/CJbenben/CJCategoryKit.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/CJbenben/TXCategoryKit.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,7 +91,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "CJCategoryKit/**/*.{h,m}"
+  spec.source_files  = "TXCategoryKit/**/*.{h,m}"
   #spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
@@ -134,6 +134,6 @@ Pod::Spec.new do |spec|
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
-  spec.dependency "SDWebImage"
+  # spec.dependency "SDWebImage"
 
 end
