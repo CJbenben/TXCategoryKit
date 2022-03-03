@@ -1,6 +1,6 @@
 //
-//  DemoTests.m
-//  DemoTests
+//  TXCategoryKitDemoTest.m
+//  TXCategoryKitDemo
 //
 //  Created by ChenJie on 2017/11/2.
 //  Copyright © 2017年 ChenJie. All rights reserved.
@@ -9,11 +9,11 @@
 #import <XCTest/XCTest.h>
 #import "TXImageUtils.h"
 
-@interface DemoTests : XCTestCase
+@interface TXCategoryKitDemoTest : XCTestCase
 
 @end
 
-@implementation DemoTests
+@implementation TXCategoryKitDemoTest
 
 - (void)setUp {
     [super setUp];

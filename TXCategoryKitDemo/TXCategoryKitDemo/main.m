@@ -1,6 +1,6 @@
 //
 //  main.m
-//  Demo
+//  TXCategoryKitDemo
 //
 //  Created by ChenJie on 2017/11/2.
 //  Copyright © 2017年 ChenJie. All rights reserved.

@@ -1,5 +1,5 @@
 //
-//  DemoUITests.m
+//  TXCategoryKitDemoUITests.m
 //  DemoUITests
 //
 //  Created by ChenJie on 2017/11/2.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface DemoUITests : XCTestCase
+@interface TXCategoryKitDemoUITests : XCTestCase
 
 @end
 
-@implementation DemoUITests
+@implementation TXCategoryKitDemoUITests
 
 - (void)setUp {
     [super setUp];
