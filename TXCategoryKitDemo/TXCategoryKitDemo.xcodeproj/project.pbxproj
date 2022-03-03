@@ -24,7 +24,6 @@
 		F5E3038B20C13D09001F11EC /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E3038220C13D09001F11EC /* SecondViewController.m */; };
 		F5E3039220C13D59001F11EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5E3039020C13D59001F11EC /* LaunchScreen.storyboard */; };
 		F5E3039320C13D59001F11EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5E3039120C13D59001F11EC /* Main.storyboard */; };
-		F5FD32C520C4D1C90049B79B /* AtzucheCustomTipView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5FD32C420C4D1C90049B79B /* AtzucheCustomTipView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,8 +80,6 @@
 		F5E3038220C13D09001F11EC /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		F5E3039020C13D59001F11EC /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5E3039120C13D59001F11EC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		F5FD32C320C4D1C90049B79B /* AtzucheCustomTipView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AtzucheCustomTipView.h; sourceTree = "<group>"; };
-		F5FD32C420C4D1C90049B79B /* AtzucheCustomTipView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AtzucheCustomTipView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,8 +213,6 @@
 		F5E3037D20C13D09001F11EC /* Public */ = {
 			isa = PBXGroup;
 			children = (
-				F5FD32C320C4D1C90049B79B /* AtzucheCustomTipView.h */,
-				F5FD32C420C4D1C90049B79B /* AtzucheCustomTipView.m */,
 				F5E3038F20C13D59001F11EC /* storyboard */,
 				F5E3037E20C13D09001F11EC /* Controller */,
 			);
@@ -403,7 +398,6 @@
 				F5E3038B20C13D09001F11EC /* SecondViewController.m in Sources */,
 				7D5AC21327CF6B4E00136B8C /* UIImage+loadSPBundle.m in Sources */,
 				7D5AC21127CF6B4E00136B8C /* UIColor+TXColor.m in Sources */,
-				F5FD32C520C4D1C90049B79B /* AtzucheCustomTipView.m in Sources */,
 				7D5AC21527CF6B4E00136B8C /* NSString+TXMD5.m in Sources */,
 				7D5AC2DD27D0890D00136B8C /* UIViewController+TXMakeToast.m in Sources */,
 				7D5AC21027CF6B4E00136B8C /* UIView+TXOtherView.m in Sources */,
