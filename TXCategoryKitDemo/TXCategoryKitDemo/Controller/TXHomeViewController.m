@@ -1,19 +1,19 @@
 //
-//  SecondViewController.m
+//  TXHomeViewController.m
 //  TXCategoryKitDemo
 //
 //  Created by ChenJie on 2017/12/12.
 //  Copyright © 2017年 ChenJie. All rights reserved.
 //
 
-#import "SecondViewController.h"
+#import "TXHomeViewController.h"
 #import "TXCategoryKit.h"
 
-@interface SecondViewController ()
+@interface TXHomeViewController ()
 
 @end
 
-@implementation SecondViewController
+@implementation TXHomeViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

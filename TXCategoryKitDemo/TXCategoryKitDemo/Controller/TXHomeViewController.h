@@ -1,5 +1,5 @@
 //
-//  SecondViewController.h
+//  TXHomeViewController.h
 //  TXCategoryKitDemo
 //
 //  Created by ChenJie on 2017/12/12.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
+@interface TXHomeViewController : UIViewController
 
 @end
