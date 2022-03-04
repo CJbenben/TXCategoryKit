@@ -23,6 +23,5 @@
 #import "UIView+TXFrame.h"
 #import "UIView+Toast.h"
 #import "UIView+TXOtherView.h"
-#import "UIViewController+TXMakeToast.h"
 
 #endif /* TXFoundation_h */
