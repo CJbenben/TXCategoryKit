@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "TXCategoryKit"
-  spec.version      = "0.2.9"
+  spec.version      = "0.2.91"
   spec.summary      = "This is componentization with TXCategoryKit"
 
   # This description is used to generate tags and improve search results.
@@ -93,8 +93,8 @@ Pod::Spec.new do |spec|
 
   #spec.exclude_files = "Classes/Exclude"
 
-  spec.public_header_files = "TXCategoryKit/TXCategororyKit.h"
-  spec.source_files  = "TXCategoryKit/TXCategororyKit.h"
+  # spec.public_header_files = "TXCategoryKit/TXCategororyKit.h"
+  # spec.source_files  = "TXCategoryKit/TXCategororyKit.h"
 
 
     #Foundation
@@ -126,9 +126,9 @@ Pod::Spec.new do |spec|
       uikit.subspec 'UIView' do |view|
           view.source_files = 'TXCategoryKit/UIKit/UIView/*.{h,m}'
       end
-      # uikit.subspec 'UIViewController' do |viewcontroller|
-      #     viewcontroller.source_files = 'TXCategoryKit/UIKit/UIViewController/*.{h,m}'
-      # end
+      uikit.subspec 'UIViewController' do |viewcontroller|
+          viewcontroller.source_files = 'TXCategoryKit/UIKit/UIViewController/*.{h,m}'
+      end
   end
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
