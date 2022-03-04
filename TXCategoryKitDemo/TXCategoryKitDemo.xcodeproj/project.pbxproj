@@ -18,7 +18,6 @@
 		7D5AC38C27D0C1D700136B8C /* UIView+TXFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5AC38027D0C1D700136B8C /* UIView+TXFrame.m */; };
 		7D5AC38D27D0C1D700136B8C /* UIView+TXCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5AC38227D0C1D700136B8C /* UIView+TXCorner.m */; };
 		7D5AC38E27D0C1D700136B8C /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5AC38327D0C1D700136B8C /* UIView+Toast.m */; };
-		7D5AC38F27D0C1D700136B8C /* UIViewController+TXMakeToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5AC38527D0C1D700136B8C /* UIViewController+TXMakeToast.m */; };
 		7D5AC39727D1B0B900136B8C /* NSString+TXMD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5AC39327D1B0B900136B8C /* NSString+TXMD5.m */; };
 		7D5AC39827D1B0B900136B8C /* NSString+TXString.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5AC39427D1B0B900136B8C /* NSString+TXString.m */; };
 		F59567871FAB4AD20068A04F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F59567861FAB4AD20068A04F /* main.m */; };
@@ -65,8 +64,6 @@
 		7D5AC38127D0C1D700136B8C /* UIView+TXOtherView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TXOtherView.h"; sourceTree = "<group>"; };
 		7D5AC38227D0C1D700136B8C /* UIView+TXCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TXCorner.m"; sourceTree = "<group>"; };
 		7D5AC38327D0C1D700136B8C /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
-		7D5AC38527D0C1D700136B8C /* UIViewController+TXMakeToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TXMakeToast.m"; sourceTree = "<group>"; };
-		7D5AC38627D0C1D700136B8C /* UIViewController+TXMakeToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TXMakeToast.h"; sourceTree = "<group>"; };
 		7D5AC39027D0C20500136B8C /* TXFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TXFoundation.h; sourceTree = "<group>"; };
 		7D5AC39127D0C29100136B8C /* TXUIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TXUIKit.h; sourceTree = "<group>"; };
 		7D5AC39327D1B0B900136B8C /* NSString+TXMD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TXMD5.m"; sourceTree = "<group>"; };
@@ -170,7 +167,6 @@
 				7D5AC37527D0C1D700136B8C /* UIImage */,
 				7D5AC37827D0C1D700136B8C /* UIColor */,
 				7D5AC37B27D0C1D700136B8C /* UIView */,
-				7D5AC38427D0C1D700136B8C /* UIViewController */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -206,15 +202,6 @@
 				7D5AC37C27D0C1D700136B8C /* UIView+TXOtherView.m */,
 			);
 			path = UIView;
-			sourceTree = "<group>";
-		};
-		7D5AC38427D0C1D700136B8C /* UIViewController */ = {
-			isa = PBXGroup;
-			children = (
-				7D5AC38627D0C1D700136B8C /* UIViewController+TXMakeToast.h */,
-				7D5AC38527D0C1D700136B8C /* UIViewController+TXMakeToast.m */,
-			);
-			path = UIViewController;
 			sourceTree = "<group>";
 		};
 		7D5AC39227D1B0B900136B8C /* NSString */ = {
@@ -447,7 +434,6 @@
 				7D5AC38B27D0C1D700136B8C /* UIView+TXOtherView.m in Sources */,
 				7D5AC36227D0C13500136B8C /* TXHomeViewController.m in Sources */,
 				7D5AC36127D0C13500136B8C /* AppDelegate.m in Sources */,
-				7D5AC38F27D0C1D700136B8C /* UIViewController+TXMakeToast.m in Sources */,
 				F59567871FAB4AD20068A04F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
