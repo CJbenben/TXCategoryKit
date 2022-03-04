@@ -126,9 +126,9 @@ Pod::Spec.new do |spec|
       uikit.subspec 'UIView' do |view|
           view.source_files = 'TXCategoryKit/UIKit/UIView/*.{h,m}'
       end
-      uikit.subspec 'UIViewController' do |viewcontroller|
-          viewcontroller.source_files = 'TXCategoryKit/UIKit/UIViewController/*.{h,m}'
-      end
+      # uikit.subspec 'UIViewController' do |viewcontroller|
+      #     viewcontroller.source_files = 'TXCategoryKit/UIKit/UIViewController/*.{h,m}'
+      # end
   end
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

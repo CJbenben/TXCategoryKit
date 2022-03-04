@@ -7,7 +7,7 @@
 //
 
 #import "UIViewController+TXMakeToast.h"
-#import "UIView+Toast.h"
+//#import "UIView+Toast.h"
 
 @implementation UIViewController (TXMakeToast)
 
@@ -27,7 +27,7 @@ static NSString *default_position   =   @"center";
 }
 
 - (void)showHUDMessage:(NSString *)message duration:(CGFloat)duration position:(NSString *)position title:(NSString *__nullable)title {
-    [[UIApplication sharedApplication].keyWindow makeToast:message duration:duration position:position title:title];
+//    [[UIApplication sharedApplication].keyWindow makeToast:message duration:duration position:position title:title];
 }
 
 @end
