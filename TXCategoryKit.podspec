@@ -5,7 +5,7 @@
 #  To learn more about Podspec attributes see https://guides.cocoapods.org/syntax/podspec.html
 #  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
 #
-version = "0.2.7";
+version = "0.2.8";
 
 Pod::Spec.new do |spec|
 
@@ -99,7 +99,7 @@ Pod::Spec.new do |spec|
 
 
     #Foundation
-  s.subspec 'Foundation' do |foundation|
+  spec.subspec 'Foundation' do |foundation|
 #      foundation.source_files = 'JKCategories/Foundation/**/*.{h,m}'
 #      foundation.source_files = 'JKCategories/Foundation/**/*.{h,m}'
       foundation.public_header_files = 'TXCategoryKit/Foundation/TXFoundation.h'
@@ -112,7 +112,7 @@ Pod::Spec.new do |spec|
   end
 
   #UIKit
-  s.subspec 'UIKit' do |uikit|
+  spec.subspec 'UIKit' do |uikit|
       # uikit.source_files = 'JKCategories/UIKit/**/*.{h,m}'
       uikit.public_header_files = 'TXCategoryKit/UIKit/TXUIKit.h'
       uikit.source_files = 'TXCategoryKit/UIKit/TXUIKit.h'
