@@ -14,7 +14,6 @@
 #import <TXCategorKit/UIView+TXFrame.h>
 #import <TXCategorKit/UIView+Toast.h>
 #import <TXCategorKit/UIView+TXOtherView.h>
-#import <TXCategorKit/UIViewController+TXMakeToast.h>
 
 #else
 #import "UIImage+loadSPBundle.h"
