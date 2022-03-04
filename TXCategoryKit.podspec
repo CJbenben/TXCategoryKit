@@ -1,10 +1,11 @@
 #
-#  Be sure to run `pod spec lint CJCategoryKit.podspec' to ensure this is a
+#  Be sure to run `pod spec lint TXCategoryKit.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see https://guides.cocoapods.org/syntax/podspec.html
 #  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
 #
+version = "0.2.7";
 
 Pod::Spec.new do |spec|
 
@@ -16,7 +17,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "TXCategoryKit"
-  spec.version      = "0.2.6"
+  spec.version      = version
   spec.summary      = "This is componentization with TXCategoryKit"
 
   # This description is used to generate tags and improve search results.
@@ -39,8 +40,8 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT"
-  # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  # spec.license      = "MIT"
+  spec.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -68,11 +69,11 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "9.0"
 
   #  When using multiple platforms
-  # spec.ios.deployment_target = "5.0"
+  spec.ios.deployment_target = "9.0"
   # spec.osx.deployment_target = "10.7"
   # spec.watchos.deployment_target = "2.0"
   # spec.tvos.deployment_target = "9.0"
-
+  spec.requires_arc = true
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -91,11 +92,45 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "TXCategoryKit/**/*.{h,m}"
   #spec.exclude_files = "Classes/Exclude"
 
-  # spec.public_header_files = "Classes/**/*.h"
+  spec.public_header_files = "TXCategoryKit/TXCategororyKit.h"
+  spec.source_files  = "TXCategoryKit/TXCategororyKit.h"
 
+
+    #Foundation
+  s.subspec 'Foundation' do |foundation|
+#      foundation.source_files = 'JKCategories/Foundation/**/*.{h,m}'
+#      foundation.source_files = 'JKCategories/Foundation/**/*.{h,m}'
+      foundation.public_header_files = 'TXCategoryKit/Foundation/TXFoundation.h'
+      foundation.source_files = 'TXCategoryKit/Foundation/TXFoundation.h'
+      foundation.frameworks = 'Foundation','Security'
+      #三级
+      foundation.subspec 'NSString' do |string|
+          string.source_files = 'TXCategoryKit/Foundation/NSString/*.{h,m}'
+      end
+  end
+
+  #UIKit
+  s.subspec 'UIKit' do |uikit|
+      # uikit.source_files = 'JKCategories/UIKit/**/*.{h,m}'
+      uikit.public_header_files = 'TXCategoryKit/UIKit/TXUIKit.h'
+      uikit.source_files = 'TXCategoryKit/UIKit/TXUIKit.h'
+      uikit.frameworks = 'UIKit'
+
+      uikit.subspec 'UIColor' do |color|
+          color.source_files = 'TXCategoryKit/UIKit/UIColor/*.{h,m}'
+      end
+      uikit.subspec 'UIImage' do |image|
+          image.source_files = 'TXCategoryKit/UIKit/UIImage/*.{h,m}'
+      end
+      uikit.subspec 'UIView' do |view|
+          view.source_files = 'TXCategoryKit/UIKit/UIView/*.{h,m}'
+      end
+      uikit.subspec 'UIViewController' do |viewcontroller|
+          viewcontroller.source_files = 'TXCategoryKit/UIKit/UIViewController/*.{h,m}'
+      end
+  end
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #

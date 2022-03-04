@@ -8,7 +8,7 @@
 
 #if __has_include(<JKCategories/JKFoundation.h>)
 #import <TXCategories/NSString+TXMD5.h>
-
+#import <TXCategories/NSString+TXString.h>
 #else
 #import "NSString+TXMD5.h"
 #import "NSString+TXString.h"

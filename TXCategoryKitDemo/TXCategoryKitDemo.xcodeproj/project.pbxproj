@@ -12,8 +12,6 @@
 		7D5AC36227D0C13500136B8C /* TXHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5AC34827D0C13500136B8C /* TXHomeViewController.m */; };
 		7D5AC36327D0C13500136B8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D5AC34A27D0C13500136B8C /* LaunchScreen.storyboard */; };
 		7D5AC36427D0C13500136B8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D5AC34B27D0C13500136B8C /* Main.storyboard */; };
-		7D5AC38727D0C1D700136B8C /* NSString+TXMD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5AC36F27D0C1D700136B8C /* NSString+TXMD5.m */; };
-		7D5AC38827D0C1D700136B8C /* NSString+TXString.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5AC37027D0C1D700136B8C /* NSString+TXString.m */; };
 		7D5AC38927D0C1D700136B8C /* UIImage+loadSPBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5AC37627D0C1D700136B8C /* UIImage+loadSPBundle.m */; };
 		7D5AC38A27D0C1D700136B8C /* UIColor+TXColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5AC37A27D0C1D700136B8C /* UIColor+TXColor.m */; };
 		7D5AC38B27D0C1D700136B8C /* UIView+TXOtherView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5AC37C27D0C1D700136B8C /* UIView+TXOtherView.m */; };
@@ -21,6 +19,8 @@
 		7D5AC38D27D0C1D700136B8C /* UIView+TXCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5AC38227D0C1D700136B8C /* UIView+TXCorner.m */; };
 		7D5AC38E27D0C1D700136B8C /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5AC38327D0C1D700136B8C /* UIView+Toast.m */; };
 		7D5AC38F27D0C1D700136B8C /* UIViewController+TXMakeToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5AC38527D0C1D700136B8C /* UIViewController+TXMakeToast.m */; };
+		7D5AC39727D1B0B900136B8C /* NSString+TXMD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5AC39327D1B0B900136B8C /* NSString+TXMD5.m */; };
+		7D5AC39827D1B0B900136B8C /* NSString+TXString.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5AC39427D1B0B900136B8C /* NSString+TXString.m */; };
 		F59567871FAB4AD20068A04F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F59567861FAB4AD20068A04F /* main.m */; };
 		F59567911FAB4AD20068A04F /* TXCategoryKitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F59567901FAB4AD20068A04F /* TXCategoryKitDemoTests.m */; };
 		F595679C1FAB4AD20068A04F /* TXCategoryKitDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F595679B1FAB4AD20068A04F /* TXCategoryKitDemoUITests.m */; };
@@ -52,10 +52,6 @@
 		7D5AC34827D0C13500136B8C /* TXHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXHomeViewController.m; sourceTree = "<group>"; };
 		7D5AC34A27D0C13500136B8C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D5AC34B27D0C13500136B8C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		7D5AC36F27D0C1D700136B8C /* NSString+TXMD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TXMD5.m"; sourceTree = "<group>"; };
-		7D5AC37027D0C1D700136B8C /* NSString+TXString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TXString.m"; sourceTree = "<group>"; };
-		7D5AC37127D0C1D700136B8C /* NSString+TXMD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TXMD5.h"; sourceTree = "<group>"; };
-		7D5AC37227D0C1D700136B8C /* NSString+TXString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TXString.h"; sourceTree = "<group>"; };
 		7D5AC37327D0C1D700136B8C /* TXCategoryKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXCategoryKit.h; sourceTree = "<group>"; };
 		7D5AC37627D0C1D700136B8C /* UIImage+loadSPBundle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+loadSPBundle.m"; sourceTree = "<group>"; };
 		7D5AC37727D0C1D700136B8C /* UIImage+loadSPBundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+loadSPBundle.h"; sourceTree = "<group>"; };
@@ -73,6 +69,10 @@
 		7D5AC38627D0C1D700136B8C /* UIViewController+TXMakeToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TXMakeToast.h"; sourceTree = "<group>"; };
 		7D5AC39027D0C20500136B8C /* TXFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TXFoundation.h; sourceTree = "<group>"; };
 		7D5AC39127D0C29100136B8C /* TXUIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TXUIKit.h; sourceTree = "<group>"; };
+		7D5AC39327D1B0B900136B8C /* NSString+TXMD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TXMD5.m"; sourceTree = "<group>"; };
+		7D5AC39427D1B0B900136B8C /* NSString+TXString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TXString.m"; sourceTree = "<group>"; };
+		7D5AC39527D1B0B900136B8C /* NSString+TXMD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TXMD5.h"; sourceTree = "<group>"; };
+		7D5AC39627D1B0B900136B8C /* NSString+TXString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TXString.h"; sourceTree = "<group>"; };
 		F59567741FAB4AD20068A04F /* TXCategoryKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TXCategoryKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F59567851FAB4AD20068A04F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F59567861FAB4AD20068A04F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -158,10 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				7D5AC39027D0C20500136B8C /* TXFoundation.h */,
-				7D5AC37127D0C1D700136B8C /* NSString+TXMD5.h */,
-				7D5AC36F27D0C1D700136B8C /* NSString+TXMD5.m */,
-				7D5AC37227D0C1D700136B8C /* NSString+TXString.h */,
-				7D5AC37027D0C1D700136B8C /* NSString+TXString.m */,
+				7D5AC39227D1B0B900136B8C /* NSString */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -218,6 +215,17 @@
 				7D5AC38527D0C1D700136B8C /* UIViewController+TXMakeToast.m */,
 			);
 			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		7D5AC39227D1B0B900136B8C /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				7D5AC39627D1B0B900136B8C /* NSString+TXString.h */,
+				7D5AC39427D1B0B900136B8C /* NSString+TXString.m */,
+				7D5AC39527D1B0B900136B8C /* NSString+TXMD5.h */,
+				7D5AC39327D1B0B900136B8C /* NSString+TXMD5.m */,
+			);
+			path = NSString;
 			sourceTree = "<group>";
 		};
 		F595676B1FAB4AD20068A04F = {
@@ -429,9 +437,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D5AC39827D1B0B900136B8C /* NSString+TXString.m in Sources */,
 				7D5AC38A27D0C1D700136B8C /* UIColor+TXColor.m in Sources */,
-				7D5AC38727D0C1D700136B8C /* NSString+TXMD5.m in Sources */,
-				7D5AC38827D0C1D700136B8C /* NSString+TXString.m in Sources */,
+				7D5AC39727D1B0B900136B8C /* NSString+TXMD5.m in Sources */,
 				7D5AC38D27D0C1D700136B8C /* UIView+TXCorner.m in Sources */,
 				7D5AC38C27D0C1D700136B8C /* UIView+TXFrame.m in Sources */,
 				7D5AC38E27D0C1D700136B8C /* UIView+Toast.m in Sources */,
