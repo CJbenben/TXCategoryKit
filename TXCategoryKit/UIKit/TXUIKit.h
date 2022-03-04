@@ -6,14 +6,13 @@
 //  Copyright © 2022 ChenJie. All rights reserved.
 //
 
-#if __has_include(<TXCategoryKit/TXFoundation.h>)
-#import <TXCategorKit/UIImage+loadSPBundle.h>
-#import <TXCategorKit/UIImage+loadSPBundle.h>
-#import <TXCategorKit/UIColor+TXColor.h>
-#import <TXCategorKit/UIView+TXCorner.h>
-#import <TXCategorKit/UIView+TXFrame.h>
-#import <TXCategorKit/UIView+Toast.h>
-#import <TXCategorKit/UIView+TXOtherView.h>
+#if __has_include(<TXCategoryKit/TXUIKit.h>)
+#import <TXCategoryKit/UIImage+loadSPBundle.h>
+#import <TXCategoryKit/UIColor+TXColor.h>
+#import <TXCategoryKit/UIView+TXCorner.h>
+#import <TXCategoryKit/UIView+TXFrame.h>
+#import <TXCategoryKit/UIView+Toast.h>
+#import <TXCategoryKit/UIView+TXOtherView.h>
 
 #else
 #import "UIImage+loadSPBundle.h"

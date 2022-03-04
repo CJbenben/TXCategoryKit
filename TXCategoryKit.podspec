@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "TXCategoryKit"
-  spec.version      = "0.2.94"
+  spec.version      = "0.2.95"
   spec.summary      = "This is componentization with TXCategoryKit"
 
   # This description is used to generate tags and improve search results.
