@@ -6,7 +6,7 @@
 //  Copyright © 2022 ChenJie. All rights reserved.
 //
 
-#if __has_include(<JKCategories/JKFoundation.h>)
+#if __has_include(<TXCategoryKit/TXFoundation.h>)
 #import <TXCategorKit/UIImage+loadSPBundle.h>
 #import <TXCategorKit/UIImage+loadSPBundle.h>
 #import <TXCategorKit/UIColor+TXColor.h>

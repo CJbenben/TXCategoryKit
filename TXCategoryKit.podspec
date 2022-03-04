@@ -5,7 +5,6 @@
 #  To learn more about Podspec attributes see https://guides.cocoapods.org/syntax/podspec.html
 #  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
 #
-version = "0.2.8";
 
 Pod::Spec.new do |spec|
 
@@ -17,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "TXCategoryKit"
-  spec.version      = version
+  spec.version      = "0.2.9"
   spec.summary      = "This is componentization with TXCategoryKit"
 
   # This description is used to generate tags and improve search results.
@@ -40,8 +39,8 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  # spec.license      = "MIT"
-  spec.license      = { :type => "MIT", :file => "LICENSE" }
+  spec.license      = "MIT"
+  # spec.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

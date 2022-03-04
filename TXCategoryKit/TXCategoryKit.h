@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-#if __has_include(<JKCategories/JKCategories.h>)
+#if __has_include(<TXCategoryKit/TXCategoryKit.h>)
 #import <TXCaategoryKit/TXUIKit.h>
 #import <TXCaategoryKit/TXFoundation.h>
 #else

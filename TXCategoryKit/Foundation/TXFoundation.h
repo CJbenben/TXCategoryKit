@@ -6,9 +6,9 @@
 //  Copyright © 2022 ChenJie. All rights reserved.
 //
 
-#if __has_include(<JKCategories/JKFoundation.h>)
-#import <TXCategories/NSString+TXMD5.h>
-#import <TXCategories/NSString+TXString.h>
+#if __has_include(<TXCategoryKit/TXFoundation.h>)
+#import <TXCategoryKit/NSString+TXMD5.h>
+#import <TXCategoryKit/NSString+TXString.h>
 #else
 #import "NSString+TXMD5.h"
 #import "NSString+TXString.h"
