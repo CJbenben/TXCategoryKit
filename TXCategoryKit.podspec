@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "TXCategoryKit"
-  spec.version      = "0.2.96"
+  spec.version      = "0.2.97"
   spec.summary      = "This is componentization with TXCategoryKit"
 
   # This description is used to generate tags and improve search results.
@@ -116,8 +116,8 @@ Pod::Spec.new do |spec|
       uikit.source_files = 'TXCategoryKit/UIKit/TXUIKit.h'
       uikit.frameworks = 'UIKit'
 
-      uikit.subspec 'UIColor' do |button|
-          button.source_files = 'TXCategoryKit/UIKit/UIButtton/*.{h,m}'
+      uikit.subspec 'UIButton' do |button|
+          button.source_files = 'TXCategoryKit/UIKit/UIButton/*.{h,m}'
       end
       uikit.subspec 'UIColor' do |color|
           color.source_files = 'TXCategoryKit/UIKit/UIColor/*.{h,m}'
