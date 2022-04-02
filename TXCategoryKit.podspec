@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "TXCategoryKit"
-  spec.version      = "0.2.95"
+  spec.version      = "0.2.96"
   spec.summary      = "This is componentization with TXCategoryKit"
 
   # This description is used to generate tags and improve search results.
@@ -116,6 +116,9 @@ Pod::Spec.new do |spec|
       uikit.source_files = 'TXCategoryKit/UIKit/TXUIKit.h'
       uikit.frameworks = 'UIKit'
 
+      uikit.subspec 'UIColor' do |button|
+          button.source_files = 'TXCategoryKit/UIKit/UIButtton/*.{h,m}'
+      end
       uikit.subspec 'UIColor' do |color|
           color.source_files = 'TXCategoryKit/UIKit/UIColor/*.{h,m}'
       end
@@ -167,6 +170,6 @@ Pod::Spec.new do |spec|
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
-  # spec.dependency "SDWebImage"
+  spec.dependency "Aspects"
 
 end
