@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5AEC73816B9B2F9873A9AE9F /* libPods-TXCategoryKitDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 02E4C71DC784E21CCFDD3C7F /* libPods-TXCategoryKitDemo.a */; };
 		7D5AC36027D0C13500136B8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D5AC34227D0C13500136B8C /* Assets.xcassets */; };
 		7D5AC36127D0C13500136B8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5AC34527D0C13500136B8C /* AppDelegate.m */; };
 		7D5AC36227D0C13500136B8C /* TXHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5AC34827D0C13500136B8C /* TXHomeViewController.m */; };
@@ -20,6 +21,7 @@
 		7D5AC38E27D0C1D700136B8C /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5AC38327D0C1D700136B8C /* UIView+Toast.m */; };
 		7D5AC39727D1B0B900136B8C /* NSString+TXMD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5AC39327D1B0B900136B8C /* NSString+TXMD5.m */; };
 		7D5AC39827D1B0B900136B8C /* NSString+TXString.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5AC39427D1B0B900136B8C /* NSString+TXString.m */; };
+		7D953DCD27FD26E000B96E87 /* UIButton+TXKitButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D953DCC27FD26E000B96E87 /* UIButton+TXKitButton.m */; };
 		F59567871FAB4AD20068A04F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F59567861FAB4AD20068A04F /* main.m */; };
 		F59567911FAB4AD20068A04F /* TXCategoryKitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F59567901FAB4AD20068A04F /* TXCategoryKitDemoTests.m */; };
 		F595679C1FAB4AD20068A04F /* TXCategoryKitDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F595679B1FAB4AD20068A04F /* TXCategoryKitDemoUITests.m */; };
@@ -44,6 +46,8 @@
 
 /* Begin PBXFileReference section */
 		01F82D7517499F26132FFA72 /* libPods-Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02E4C71DC784E21CCFDD3C7F /* libPods-TXCategoryKitDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TXCategoryKitDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		712D212CE1FDE728D25379B4 /* Pods-TXCategoryKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TXCategoryKitDemo.release.xcconfig"; path = "Target Support Files/Pods-TXCategoryKitDemo/Pods-TXCategoryKitDemo.release.xcconfig"; sourceTree = "<group>"; };
 		7D5AC34227D0C13500136B8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D5AC34427D0C13500136B8C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7D5AC34527D0C13500136B8C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -70,6 +74,9 @@
 		7D5AC39427D1B0B900136B8C /* NSString+TXString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TXString.m"; sourceTree = "<group>"; };
 		7D5AC39527D1B0B900136B8C /* NSString+TXMD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TXMD5.h"; sourceTree = "<group>"; };
 		7D5AC39627D1B0B900136B8C /* NSString+TXString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TXString.h"; sourceTree = "<group>"; };
+		7D953DCB27FD26E000B96E87 /* UIButton+TXKitButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+TXKitButton.h"; sourceTree = "<group>"; };
+		7D953DCC27FD26E000B96E87 /* UIButton+TXKitButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+TXKitButton.m"; sourceTree = "<group>"; };
+		826D979EBB80A387E6BDA44C /* Pods-TXCategoryKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TXCategoryKitDemo.debug.xcconfig"; path = "Target Support Files/Pods-TXCategoryKitDemo/Pods-TXCategoryKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		F59567741FAB4AD20068A04F /* TXCategoryKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TXCategoryKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F59567851FAB4AD20068A04F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F59567861FAB4AD20068A04F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -86,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AEC73816B9B2F9873A9AE9F /* libPods-TXCategoryKitDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,8 +118,19 @@
 			isa = PBXGroup;
 			children = (
 				01F82D7517499F26132FFA72 /* libPods-Demo.a */,
+				02E4C71DC784E21CCFDD3C7F /* libPods-TXCategoryKitDemo.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B42B96205BB3B888E3DF5FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				826D979EBB80A387E6BDA44C /* Pods-TXCategoryKitDemo.debug.xcconfig */,
+				712D212CE1FDE728D25379B4 /* Pods-TXCategoryKitDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		7D5AC34327D0C13500136B8C /* AppDelegate */ = {
@@ -164,6 +183,7 @@
 			isa = PBXGroup;
 			children = (
 				7D5AC39127D0C29100136B8C /* TXUIKit.h */,
+				7D953DCA27FD26E000B96E87 /* UIButton */,
 				7D5AC37527D0C1D700136B8C /* UIImage */,
 				7D5AC37827D0C1D700136B8C /* UIColor */,
 				7D5AC37B27D0C1D700136B8C /* UIView */,
@@ -215,6 +235,15 @@
 			path = NSString;
 			sourceTree = "<group>";
 		};
+		7D953DCA27FD26E000B96E87 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				7D953DCB27FD26E000B96E87 /* UIButton+TXKitButton.h */,
+				7D953DCC27FD26E000B96E87 /* UIButton+TXKitButton.m */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
 		F595676B1FAB4AD20068A04F = {
 			isa = PBXGroup;
 			children = (
@@ -223,6 +252,7 @@
 				F595679A1FAB4AD20068A04F /* TXCategoryKitDemoUITests */,
 				F59567751FAB4AD20068A04F /* Products */,
 				2D0A32D185645163E52B81EE /* Frameworks */,
+				3B42B96205BB3B888E3DF5FC /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -409,12 +439,11 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Demo-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-TXCategoryKitDemo-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "
-";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -426,6 +455,7 @@
 			files = (
 				7D5AC39827D1B0B900136B8C /* NSString+TXString.m in Sources */,
 				7D5AC38A27D0C1D700136B8C /* UIColor+TXColor.m in Sources */,
+				7D953DCD27FD26E000B96E87 /* UIButton+TXKitButton.m in Sources */,
 				7D5AC39727D1B0B900136B8C /* NSString+TXMD5.m in Sources */,
 				7D5AC38D27D0C1D700136B8C /* UIView+TXCorner.m in Sources */,
 				7D5AC38C27D0C1D700136B8C /* UIView+TXFrame.m in Sources */,
@@ -580,6 +610,7 @@
 		};
 		F59567A11FAB4AD20068A04F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 826D979EBB80A387E6BDA44C /* Pods-TXCategoryKitDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -596,6 +627,7 @@
 		};
 		F59567A21FAB4AD20068A04F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 712D212CE1FDE728D25379B4 /* Pods-TXCategoryKitDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
