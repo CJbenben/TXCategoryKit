@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		5AEC73816B9B2F9873A9AE9F /* libPods-TXCategoryKitDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 02E4C71DC784E21CCFDD3C7F /* libPods-TXCategoryKitDemo.a */; };
+		7D301EDE292625160020577D /* UIImage+TXCompress.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D301EDD292625160020577D /* UIImage+TXCompress.m */; };
 		7D5AC36027D0C13500136B8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D5AC34227D0C13500136B8C /* Assets.xcassets */; };
 		7D5AC36127D0C13500136B8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5AC34527D0C13500136B8C /* AppDelegate.m */; };
 		7D5AC36227D0C13500136B8C /* TXHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5AC34827D0C13500136B8C /* TXHomeViewController.m */; };
 		7D5AC36327D0C13500136B8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D5AC34A27D0C13500136B8C /* LaunchScreen.storyboard */; };
 		7D5AC36427D0C13500136B8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D5AC34B27D0C13500136B8C /* Main.storyboard */; };
-		7D5AC38927D0C1D700136B8C /* UIImage+loadSPBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5AC37627D0C1D700136B8C /* UIImage+loadSPBundle.m */; };
+		7D5AC38927D0C1D700136B8C /* UIImage+TXImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5AC37627D0C1D700136B8C /* UIImage+TXImage.m */; };
 		7D5AC38A27D0C1D700136B8C /* UIColor+TXColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5AC37A27D0C1D700136B8C /* UIColor+TXColor.m */; };
 		7D5AC38B27D0C1D700136B8C /* UIView+TXOtherView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5AC37C27D0C1D700136B8C /* UIView+TXOtherView.m */; };
 		7D5AC38C27D0C1D700136B8C /* UIView+TXFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5AC38027D0C1D700136B8C /* UIView+TXFrame.m */; };
@@ -48,6 +49,8 @@
 		01F82D7517499F26132FFA72 /* libPods-Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		02E4C71DC784E21CCFDD3C7F /* libPods-TXCategoryKitDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TXCategoryKitDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		712D212CE1FDE728D25379B4 /* Pods-TXCategoryKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TXCategoryKitDemo.release.xcconfig"; path = "Target Support Files/Pods-TXCategoryKitDemo/Pods-TXCategoryKitDemo.release.xcconfig"; sourceTree = "<group>"; };
+		7D301EDC292625160020577D /* UIImage+TXCompress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+TXCompress.h"; sourceTree = "<group>"; };
+		7D301EDD292625160020577D /* UIImage+TXCompress.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TXCompress.m"; sourceTree = "<group>"; };
 		7D5AC34227D0C13500136B8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D5AC34427D0C13500136B8C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7D5AC34527D0C13500136B8C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -56,8 +59,8 @@
 		7D5AC34A27D0C13500136B8C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D5AC34B27D0C13500136B8C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		7D5AC37327D0C1D700136B8C /* TXCategoryKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXCategoryKit.h; sourceTree = "<group>"; };
-		7D5AC37627D0C1D700136B8C /* UIImage+loadSPBundle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+loadSPBundle.m"; sourceTree = "<group>"; };
-		7D5AC37727D0C1D700136B8C /* UIImage+loadSPBundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+loadSPBundle.h"; sourceTree = "<group>"; };
+		7D5AC37627D0C1D700136B8C /* UIImage+TXImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TXImage.m"; sourceTree = "<group>"; };
+		7D5AC37727D0C1D700136B8C /* UIImage+TXImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TXImage.h"; sourceTree = "<group>"; };
 		7D5AC37927D0C1D700136B8C /* UIColor+TXColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+TXColor.h"; sourceTree = "<group>"; };
 		7D5AC37A27D0C1D700136B8C /* UIColor+TXColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+TXColor.m"; sourceTree = "<group>"; };
 		7D5AC37C27D0C1D700136B8C /* UIView+TXOtherView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TXOtherView.m"; sourceTree = "<group>"; };
@@ -129,7 +132,6 @@
 				826D979EBB80A387E6BDA44C /* Pods-TXCategoryKitDemo.debug.xcconfig */,
 				712D212CE1FDE728D25379B4 /* Pods-TXCategoryKitDemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -194,8 +196,10 @@
 		7D5AC37527D0C1D700136B8C /* UIImage */ = {
 			isa = PBXGroup;
 			children = (
-				7D5AC37727D0C1D700136B8C /* UIImage+loadSPBundle.h */,
-				7D5AC37627D0C1D700136B8C /* UIImage+loadSPBundle.m */,
+				7D5AC37727D0C1D700136B8C /* UIImage+TXImage.h */,
+				7D5AC37627D0C1D700136B8C /* UIImage+TXImage.m */,
+				7D301EDC292625160020577D /* UIImage+TXCompress.h */,
+				7D301EDD292625160020577D /* UIImage+TXCompress.m */,
 			);
 			path = UIImage;
 			sourceTree = "<group>";
@@ -460,8 +464,9 @@
 				7D5AC38D27D0C1D700136B8C /* UIView+TXCorner.m in Sources */,
 				7D5AC38C27D0C1D700136B8C /* UIView+TXFrame.m in Sources */,
 				7D5AC38E27D0C1D700136B8C /* UIView+Toast.m in Sources */,
-				7D5AC38927D0C1D700136B8C /* UIImage+loadSPBundle.m in Sources */,
+				7D5AC38927D0C1D700136B8C /* UIImage+TXImage.m in Sources */,
 				7D5AC38B27D0C1D700136B8C /* UIView+TXOtherView.m in Sources */,
+				7D301EDE292625160020577D /* UIImage+TXCompress.m in Sources */,
 				7D5AC36227D0C13500136B8C /* TXHomeViewController.m in Sources */,
 				7D5AC36127D0C13500136B8C /* AppDelegate.m in Sources */,
 				F59567871FAB4AD20068A04F /* main.m in Sources */,
