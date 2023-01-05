@@ -23,6 +23,7 @@
 		7D5AC39727D1B0B900136B8C /* NSString+TXMD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5AC39327D1B0B900136B8C /* NSString+TXMD5.m */; };
 		7D5AC39827D1B0B900136B8C /* NSString+TXString.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5AC39427D1B0B900136B8C /* NSString+TXString.m */; };
 		7D953DCD27FD26E000B96E87 /* UIButton+TXKitButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D953DCC27FD26E000B96E87 /* UIButton+TXKitButton.m */; };
+		7D97A1A52966C00D001E89E5 /* UIImage+TXGrayImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D97A1A42966C00D001E89E5 /* UIImage+TXGrayImage.m */; };
 		F59567871FAB4AD20068A04F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F59567861FAB4AD20068A04F /* main.m */; };
 		F59567911FAB4AD20068A04F /* TXCategoryKitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F59567901FAB4AD20068A04F /* TXCategoryKitDemoTests.m */; };
 		F595679C1FAB4AD20068A04F /* TXCategoryKitDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F595679B1FAB4AD20068A04F /* TXCategoryKitDemoUITests.m */; };
@@ -79,6 +80,8 @@
 		7D5AC39627D1B0B900136B8C /* NSString+TXString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TXString.h"; sourceTree = "<group>"; };
 		7D953DCB27FD26E000B96E87 /* UIButton+TXKitButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+TXKitButton.h"; sourceTree = "<group>"; };
 		7D953DCC27FD26E000B96E87 /* UIButton+TXKitButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+TXKitButton.m"; sourceTree = "<group>"; };
+		7D97A1A32966C00D001E89E5 /* UIImage+TXGrayImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TXGrayImage.h"; sourceTree = "<group>"; };
+		7D97A1A42966C00D001E89E5 /* UIImage+TXGrayImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TXGrayImage.m"; sourceTree = "<group>"; };
 		826D979EBB80A387E6BDA44C /* Pods-TXCategoryKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TXCategoryKitDemo.debug.xcconfig"; path = "Target Support Files/Pods-TXCategoryKitDemo/Pods-TXCategoryKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		F59567741FAB4AD20068A04F /* TXCategoryKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TXCategoryKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F59567851FAB4AD20068A04F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -200,6 +203,8 @@
 				7D5AC37627D0C1D700136B8C /* UIImage+TXImage.m */,
 				7D301EDC292625160020577D /* UIImage+TXCompress.h */,
 				7D301EDD292625160020577D /* UIImage+TXCompress.m */,
+				7D97A1A32966C00D001E89E5 /* UIImage+TXGrayImage.h */,
+				7D97A1A42966C00D001E89E5 /* UIImage+TXGrayImage.m */,
 			);
 			path = UIImage;
 			sourceTree = "<group>";
@@ -464,6 +469,7 @@
 				7D5AC38D27D0C1D700136B8C /* UIView+TXCorner.m in Sources */,
 				7D5AC38C27D0C1D700136B8C /* UIView+TXFrame.m in Sources */,
 				7D5AC38E27D0C1D700136B8C /* UIView+Toast.m in Sources */,
+				7D97A1A52966C00D001E89E5 /* UIImage+TXGrayImage.m in Sources */,
 				7D5AC38927D0C1D700136B8C /* UIImage+TXImage.m in Sources */,
 				7D5AC38B27D0C1D700136B8C /* UIView+TXOtherView.m in Sources */,
 				7D301EDE292625160020577D /* UIImage+TXCompress.m in Sources */,
