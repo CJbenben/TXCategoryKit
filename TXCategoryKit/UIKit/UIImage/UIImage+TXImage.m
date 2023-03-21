@@ -107,7 +107,7 @@
 }
 
 // 截取当前屏幕，返回截取到的图片
-- (UIImage *)imageWithScreenshot {
++ (UIImage *)imageWithScreenshot {
     CGSize imageSize = CGSizeZero;
     UIInterfaceOrientation orientation = [UIApplication sharedApplication].statusBarOrientation;
     if (UIInterfaceOrientationIsPortrait(orientation)) {
